@@ -5,10 +5,10 @@ import "fmt"
 var version = "dev"
 
 func main() {
-	fmt.Printf("Version: %s\n",version)
+	fmt.Printf("Version: %s\n", version)
 	fmt.Println(hello())
 }
 
-func hello() string{
-	return "Hello World!"
+func hello() string {
+	return "Hello World"
 }
